@@ -12,9 +12,9 @@ import random
 from email.mime.text import MIMEText
 from datetime import datetime
 
-sender_email = "ayushmaanpattnayak0788@gmail.com"
-receiver_email = "preranad1111@gmail.com"
-app_password = "votn omto ksqx dfvh"
+sender_email = os.getenv("EMAIL")
+receiver_email = os.getenv("RECEIVER")
+app_password = os.getenv("PASSWORD")
 
 # 🔥 Add your messages here
 messages = [
