@@ -9,6 +9,7 @@ Original file is located at
 
 import smtplib
 import random
+import os
 from email.mime.text import MIMEText
 from datetime import datetime
 
